@@ -1,0 +1,11 @@
+disease,gene,biological_role,relevance
+diabetes,INS,Insulin hormone regulation,Central role in glucose metabolism
+diabetes,PPARG,Adipocyte differentiation and insulin sensitivity,Linked with type 2 diabetes and metabolic regulation
+diabetes,TCF7L2,Wnt signaling and pancreatic beta-cell function,Strongly associated with type 2 diabetes susceptibility
+kidney-disease,ACE,Blood pressure and renin-angiotensin regulation,Relevant in diabetic kidney disease and hypertension
+kidney-disease,UMOD,Uromodulin production in kidney tubules,Associated with kidney function and chronic kidney disease risk
+alzheimers,APOE,Lipid transport and neuronal repair,Major genetic risk factor for late-onset Alzheimer disease
+alzheimers,APP,Amyloid precursor protein processing,Linked with amyloid beta formation in Alzheimer disease
+parkinsons,SNCA,Alpha-synuclein protein regulation,Associated with Lewy body formation and Parkinson disease
+parkinsons,LRRK2,Kinase signaling and neuronal function,Associated with inherited and sporadic Parkinson disease
+als,SOD1,Oxidative stress response,Associated with familial amyotrophic lateral sclerosis
