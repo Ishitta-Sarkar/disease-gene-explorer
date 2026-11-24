@@ -1,0 +1,6 @@
+# Figure export. The explorer and the API client use the Python standard library.
+matplotlib==3.11.2
+
+# Tests and lint, including GitHub Actions.
+pytest==9.2.0
+ruff==0.17.6

@@ -1,25 +1,12 @@
-from src.disease_gene_tools import DiseaseGeneExplorer
+import sys
+from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
 
-explorer = DiseaseGeneExplorer("data/disease_genes.csv")
+from disease_gene_explorer.cli import main
 
-print("Disease Gene Explorer")
-print("=" * 30)
-
-print("\nAvailable Diseases:")
-for disease in explorer.get_all_diseases():
-    print("-", disease)
-
-print("\nDiabetes Gene Summary")
-print("-" * 30)
-print(explorer.summarize_disease("diabetes"))
-
-print("\nGene Search: APOE")
-print("-" * 30)
-results = explorer.search_gene("APOE")
-
-for record in results:
-    print("Disease:", record["disease"])
-    print("Gene:", record["gene"])
-    print("Biological Role:", record["biological_role"])
-    print("Relevance:", record["relevance"])
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Disease–Gene Explorer
+message: If you use this software, please cite it using the metadata below.
+type: software
+authors:
+  - family-names: Sarkar
+    given-names: Ishitta
+    orcid: https://orcid.org/0009-0008-1028-6010
+repository-code: https://github.com/Ishitta-Sarkar/disease-gene-explorer
+url: https://github.com/Ishitta-Sarkar/disease-gene-explorer
+license: MIT
+version: 0.2.0
+date-released: 2026-11-24
+keywords:
+  - disease-genes
+  - gene-disease-association
+  - learning-project
+  - python
+abstract: >-
+  Command-line explorer for direct disease–gene associations retrieved from
+  the Open Targets Platform GraphQL API, with disease identifiers from the
+  EFO ontology, Ensembl gene identifiers, and overall association scores.
