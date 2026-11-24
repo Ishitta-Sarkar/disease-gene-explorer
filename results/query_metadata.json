@@ -1,0 +1,130 @@
+{
+  "source": "https://api.platform.opentargets.org/api/v4/graphql",
+  "data_version": "26.09",
+  "api_version": "26.9.0",
+  "page_size": 10,
+  "enable_indirect": false,
+  "order_by_score": "score desc",
+  "diseases": {
+    "MONDO_0005148": {
+      "name": "type 2 diabetes mellitus",
+      "description": "A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.",
+      "db_xrefs": [
+        "DOID:9352",
+        "ICD10CM:E11",
+        "ICD10WHO:E11",
+        "MEDGEN:41523",
+        "MESH:D003924",
+        "NANDO:2200461",
+        "NCIT:C26747",
+        "OMIM:125853",
+        "SCTID:44054006",
+        "UMLS:C0011860",
+        "icd11.foundation:119724091"
+      ],
+      "association_count": 10206,
+      "returned": 10,
+      "fetched_at": "2026-11-24T16:22:07Z",
+      "from_cache": false
+    },
+    "MONDO_0004975": {
+      "name": "Alzheimer disease",
+      "description": "A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.",
+      "db_xrefs": [
+        "DOID:10652",
+        "HP:0002511",
+        "ICD10CM:G30",
+        "ICD10WHO:G30",
+        "ICD9:290.1",
+        "ICD9:331.0",
+        "MEDGEN:1853",
+        "MESH:D000544",
+        "NCIT:C2866",
+        "Orphanet:238616",
+        "SCTID:142811000119104",
+        "UMLS:C0002395",
+        "birnlex:2092",
+        "icd11.foundation:1611724421"
+      ],
+      "association_count": 12918,
+      "returned": 10,
+      "fetched_at": "2026-11-24T16:22:08Z",
+      "from_cache": false
+    },
+    "MONDO_0005180": {
+      "name": "Parkinson disease",
+      "description": "A progressive degenerative disorder of the central nervous system characterized by loss of dopamine producing neurons in the substantia nigra and the presence of Lewy bodies in the substantia nigra and locus coeruleus. Signs and symptoms include tremor which is most pronounced during rest, muscle rigidity, slowing of the voluntary movements, a tendency to fall back, and a mask-like facial expression.",
+      "db_xrefs": [
+        "DOID:14330",
+        "ICD10CM:G20",
+        "ICD10WHO:G20",
+        "ICD9:332",
+        "ICD9:332.0",
+        "MEDGEN:10590",
+        "MESH:D010300",
+        "NANDO:1200010",
+        "NCIT:C26845",
+        "OMIMPS:168600",
+        "Orphanet:319705",
+        "SCTID:49049000",
+        "UMLS:C0030567",
+        "birnlex:2098",
+        "icd11.foundation:296066191"
+      ],
+      "association_count": 8815,
+      "returned": 10,
+      "fetched_at": "2026-11-24T16:22:08Z",
+      "from_cache": false
+    },
+    "MONDO_0005300": {
+      "name": "chronic kidney disease",
+      "description": "Impairment of the renal function secondary to chronic kidney damage persisting for three or more months.",
+      "db_xrefs": [
+        "DOID:784",
+        "EFO:0003884",
+        "ICD10CM:N18",
+        "ICD10CM:N18.9",
+        "ICD10WHO:N18",
+        "ICD9:585",
+        "MEDGEN:473458",
+        "MESH:D007676",
+        "NANDO:2100008",
+        "NANDO:2100023",
+        "NCIT:C80078",
+        "SCTID:709044004",
+        "UMLS:C1561643",
+        "icd11.foundation:412389819"
+      ],
+      "association_count": 4938,
+      "returned": 10,
+      "fetched_at": "2026-11-24T16:22:08Z",
+      "from_cache": false
+    },
+    "MONDO_0004976": {
+      "name": "amyotrophic lateral sclerosis",
+      "description": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive muscular paralysis reflecting degeneration of motor neurons in the primary motor cortex, corticospinal tracts, brainstem and spinal cord.",
+      "db_xrefs": [
+        "DOID:332",
+        "GARD:0005786",
+        "HP:0007354",
+        "ICD10CM:G12.21",
+        "ICD9:335.20",
+        "MEDGEN:274",
+        "MESH:D000690",
+        "MedDRA:10002026",
+        "NANDO:1200002",
+        "NCIT:C34373",
+        "NORD:768",
+        "Orphanet:803",
+        "SCTID:86044005",
+        "UMLS:C0002736",
+        "birnlex:12566",
+        "icd11.foundation:1982355687"
+      ],
+      "association_count": 6088,
+      "returned": 10,
+      "fetched_at": "2026-11-24T16:22:09Z",
+      "from_cache": false
+    }
+  }
+}

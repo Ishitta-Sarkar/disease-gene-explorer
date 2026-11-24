@@ -1,0 +1,261 @@
+{
+  "description": "GraphQL data objects returned by the Open Targets Platform API for two diseases (page size 3, direct associations only, ordered by overall score descending). Retrieved 24 November 2026. Used by the tests and by the offline explorer.",
+  "source": "https://api.platform.opentargets.org/api/v4/graphql",
+  "enable_indirect": false,
+  "page_size": 3,
+  "responses": [
+    {
+      "data": {
+        "meta": {
+          "apiVersion": {
+            "x": "26",
+            "y": "9",
+            "z": "0",
+            "suffix": null
+          },
+          "dataVersion": {
+            "year": "26",
+            "month": "09",
+            "iteration": null
+          }
+        },
+        "disease": {
+          "id": "MONDO_0005148",
+          "name": "type 2 diabetes mellitus",
+          "description": "A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.",
+          "dbXRefs": [
+            "DOID:9352",
+            "ICD10CM:E11",
+            "ICD10WHO:E11",
+            "MEDGEN:41523",
+            "MESH:D003924",
+            "NANDO:2200461",
+            "NCIT:C26747",
+            "OMIM:125853",
+            "SCTID:44054006",
+            "UMLS:C0011860",
+            "icd11.foundation:119724091"
+          ],
+          "associatedTargets": {
+            "count": 10206,
+            "rows": [
+              {
+                "score": 0.8772147341544883,
+                "datatypeScores": [
+                  {
+                    "id": "clinical",
+                    "score": 0.9984847978522379
+                  },
+                  {
+                    "id": "genetic_literature",
+                    "score": 0.865457038266544
+                  },
+                  {
+                    "id": "literature",
+                    "score": 0.938931423307246
+                  },
+                  {
+                    "id": "genetic_association",
+                    "score": 0.9214601900100006
+                  },
+                  {
+                    "id": "somatic_mutation",
+                    "score": 0.7133145042531812
+                  }
+                ],
+                "target": {
+                  "id": "ENSG00000187486",
+                  "approvedSymbol": "KCNJ11",
+                  "approvedName": "potassium inwardly rectifying channel subfamily J member 11",
+                  "biotype": "protein_coding"
+                }
+              },
+              {
+                "score": 0.8764122840406745,
+                "datatypeScores": [
+                  {
+                    "id": "genetic_literature",
+                    "score": 0.8897742701710087
+                  },
+                  {
+                    "id": "clinical",
+                    "score": 0.9984835835668301
+                  },
+                  {
+                    "id": "literature",
+                    "score": 0.7758237980601571
+                  },
+                  {
+                    "id": "genetic_association",
+                    "score": 0.9173713763530777
+                  },
+                  {
+                    "id": "somatic_mutation",
+                    "score": 0.6189714963749121
+                  },
+                  {
+                    "id": "animal_model",
+                    "score": 0.5515115604087089
+                  }
+                ],
+                "target": {
+                  "id": "ENSG00000006071",
+                  "approvedSymbol": "ABCC8",
+                  "approvedName": "ATP binding cassette subfamily C member 8",
+                  "biotype": "protein_coding"
+                }
+              },
+              {
+                "score": 0.8679864643690597,
+                "datatypeScores": [
+                  {
+                    "id": "clinical",
+                    "score": 0.6098787576660025
+                  },
+                  {
+                    "id": "genetic_literature",
+                    "score": 0.8139517901355594
+                  },
+                  {
+                    "id": "literature",
+                    "score": 0.9611162418265885
+                  },
+                  {
+                    "id": "genetic_association",
+                    "score": 0.9303607608240911
+                  },
+                  {
+                    "id": "animal_model",
+                    "score": 0.7543682319495564
+                  }
+                ],
+                "target": {
+                  "id": "ENSG00000106633",
+                  "approvedSymbol": "GCK",
+                  "approvedName": "glucokinase",
+                  "biotype": "protein_coding"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "meta": {
+          "apiVersion": {
+            "x": "26",
+            "y": "9",
+            "z": "0",
+            "suffix": null
+          },
+          "dataVersion": {
+            "year": "26",
+            "month": "09",
+            "iteration": null
+          }
+        },
+        "disease": {
+          "id": "MONDO_0004975",
+          "name": "Alzheimer disease",
+          "description": "A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.",
+          "dbXRefs": [
+            "DOID:10652",
+            "HP:0002511",
+            "ICD10CM:G30",
+            "ICD10WHO:G30",
+            "ICD9:290.1",
+            "ICD9:331.0",
+            "MEDGEN:1853",
+            "MESH:D000544",
+            "NCIT:C2866",
+            "Orphanet:238616",
+            "SCTID:142811000119104",
+            "UMLS:C0002395",
+            "birnlex:2092",
+            "icd11.foundation:1611724421"
+          ],
+          "associatedTargets": {
+            "count": 12918,
+            "rows": [
+              {
+                "score": 0.8147062892127732,
+                "datatypeScores": [
+                  {
+                    "id": "literature",
+                    "score": 0.9972430817116048
+                  },
+                  {
+                    "id": "affected_pathway",
+                    "score": 0.607930797611621
+                  },
+                  {
+                    "id": "genetic_association",
+                    "score": 0.8897602793031145
+                  },
+                  {
+                    "id": "clinical",
+                    "score": 0.9775231241955992
+                  }
+                ],
+                "target": {
+                  "id": "ENSG00000142192",
+                  "approvedSymbol": "APP",
+                  "approvedName": "amyloid beta precursor protein",
+                  "biotype": "protein_coding"
+                }
+              },
+              {
+                "score": 0.7404919641315182,
+                "datatypeScores": [
+                  {
+                    "id": "literature",
+                    "score": 0.9730677490743865
+                  },
+                  {
+                    "id": "genetic_association",
+                    "score": 0.8612616756499808
+                  },
+                  {
+                    "id": "genetic_literature",
+                    "score": 0.607930797611621
+                  }
+                ],
+                "target": {
+                  "id": "ENSG00000064687",
+                  "approvedSymbol": "ABCA7",
+                  "approvedName": "ATP binding cassette subfamily A member 7",
+                  "biotype": "protein_coding"
+                }
+              },
+              {
+                "score": 0.7008097122978573,
+                "datatypeScores": [
+                  {
+                    "id": "literature",
+                    "score": 0.8743979700812515
+                  },
+                  {
+                    "id": "affected_pathway",
+                    "score": 0.5815977506239859
+                  },
+                  {
+                    "id": "clinical",
+                    "score": 0.9879482584169764
+                  }
+                ],
+                "target": {
+                  "id": "ENSG00000176884",
+                  "approvedSymbol": "GRIN1",
+                  "approvedName": "glutamate ionotropic receptor NMDA type subunit 1",
+                  "biotype": "protein_coding"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
